@@ -7,8 +7,8 @@
         <methods>
           <include name="verifyJeeAdvancedPage"/>
           <include name="verifyContactUsPage"/>
-          <include name="tearDown"/>
           <include name="verifyNeetUgPage"/>
+          <include name="tearDown"/>
           <include name="verifyJeeMainPage"/>
           <include name="verifyBuyPage"/>
           <include name="setUp"/>
