@@ -1,4 +1,4 @@
-package testing;
+package myAutomation;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -20,15 +20,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class MyTestCase {
+public class MyTestCaseChrome2 {
 	
-	public MyTestCase() throws MalformedURLException {
+	public MyTestCaseChrome2() throws MalformedURLException {
         super(); // This call can be explicit or left implicit
     }
 	
-	// 1. Create a ChromeOptions or Firefox instance
-	//ChromeOptions options = new ChromeOptions();
-	FirefoxOptions options=new FirefoxOptions();
+	// 1. Create a ChromeOptions or  instance
+	ChromeOptions options = new ChromeOptions();
 
 	// 2. Pass ChromeOptions into RemoteWebDriver
 	@SuppressWarnings("deprecation")

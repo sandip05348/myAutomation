@@ -3,11 +3,10 @@
 <suite name="Suite" parallel="classes">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testing.MyTestCaseEdge"/>
-      <class name="testing.MyTestCaseFirefox"/>
-      <class name="testing.MyTestCaseChrome1"/>
-      <class name="testing.MyTestCaseChrome2"/>
-      <class name="testing.MyTestCaseChrome3"/>
+      <class name="myAutomation.SetupDockerGrid"/>
+      <class name="myAutomation.MyTestCaseEdge"/>
+      <class name="myAutomation.MyTestCaseFirefox"/>
+      <class name="myAutomation.MyTestCaseChrome"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
