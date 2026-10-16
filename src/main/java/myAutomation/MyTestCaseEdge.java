@@ -1,54 +1,43 @@
-package testing;
+package myAutomation;
 
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class MyTestCaseChrome2 {
-	
-	public MyTestCaseChrome2() throws MalformedURLException {
-        super(); // This call can be explicit or left implicit
-    }
-	
-	// 1. Create a ChromeOptions or  instance
-	ChromeOptions options = new ChromeOptions();
+public class MyTestCaseEdge {
 
-	// 2. Pass ChromeOptions into RemoteWebDriver
-	@SuppressWarnings("deprecation")
-	URL gridUrl = new URL("http://localhost:4444/wd/hub"); // Replace with your Hub URL
-	RemoteWebDriver driver = new RemoteWebDriver(gridUrl, options);   
-   final String BASE_URL = "https://www.careerorbits.com/";
+	RemoteWebDriver driver;
+    final String BASE_URL = "https://www.careerorbits.com/";
+
     @BeforeClass
-    public void setUp() {
-        //driver = new ChromeDriver();  
-    	//driver = new FirefoxDriver();
-    	//driver =new EdgeDriver();
-        //driver = new InternetExplorerDriver();
+    public void setUp() throws MalformedURLException {
+        EdgeOptions options = new EdgeOptions();
+        @SuppressWarnings("deprecation")
+		URL gridUrl = new URL("http://localhost:4444/wd/hub");
+        driver = new RemoteWebDriver(gridUrl, options);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
     }
 
-    // Every test starts from the home page
     @BeforeMethod
     public void openHome() {
         driver.get(BASE_URL);
     }
+    
     
     private void clickMenu(String hrefPart) {
         driver.findElement(By.xpath("(//a[contains(@href,'" + hrefPart + "')])[1]")).click();
@@ -120,5 +109,4 @@ public class MyTestCaseChrome2 {
             driver.quit();
         }
     }
-
 }
