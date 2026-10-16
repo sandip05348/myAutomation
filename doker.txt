@@ -1,0 +1,48 @@
+// pull image in the docker hub for selenium/standalone-chrome
+doker images
+docker pull selenium/standalone-chrome:latest
+docker images
+// new container creation for selenium/standalone-chrome
+docker run -d -p 4444:4444 -p 7900:7900 --shm-size="2g" selenium/standalone-chrome:latest
+create & run selenium test remotely on container
+
+docker ps   ///checking how many container are running.
+
+DesiredCapability
+  // 1. Create a ChromeOptions instance
+	ChromeOptions options = new ChromeOptions();
+
+	// 2. Pass ChromeOptions into RemoteWebDriver
+	URL gridUrl = new URL("http://localhost:4444/wd/hub"); // Replace with your Hub URL
+	RemoteWebDriver driver = new RemoteWebDriver(gridUrl, options);
+// stop the container
+docker stop container_id
+
+// pull image in the docker hub for selenium/standalone-chrome
+doker images // to check how many images are running in the docker desktop
+docker pull selenium/standalone-forefox:latest
+// new container creation for selenium/standalone-firefox
+docker run -d -p 4444:4444 -p 7900:7900 --shm-size="2g" selenium/standalone-firefox:latest
+docker ps -a    // how many docker and its status
+docker ps // runing container
+docker start id or name  // start the existing container
+docker stop  id or name  // stop the runing container
+
+docker rmi selenium/standalone-chrome:latest
+docker rmi selenium/standalone-firefox:latest
+
+docker rmi d6843a37cd28 2bb7d9e63088
+
+docker ps -a                      # find containers using the standalone images
+docker rm -f <container_id>
+docker rmi selenium/standalone-chrome:latest
+
+Step 1: Find the containers using them
+docker ps -a --filter ancestor=selenium/standalone-chrome:latest
+
+Step 2: Remove those containers
+docker rm -f <container_id>
+
+Step 3: Remove the images
+docker rmi selenium/standalone-chrome:latest selenium/standalone-firefox:latest
+
