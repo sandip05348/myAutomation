@@ -1,9 +1,17 @@
 package testing;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -12,14 +20,27 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class MyTestCase{
+public class MyTestCase {
+	
+	public MyTestCase() throws MalformedURLException {
+        super(); // This call can be explicit or left implicit
+    }
+	
+	// 1. Create a ChromeOptions or Firefox instance
+	//ChromeOptions options = new ChromeOptions();
+	FirefoxOptions options=new FirefoxOptions();
 
-	WebDriver driver;
-    final String BASE_URL = "https://www.careerorbits.com/";
-
+	// 2. Pass ChromeOptions into RemoteWebDriver
+	@SuppressWarnings("deprecation")
+	URL gridUrl = new URL("http://localhost:4444/wd/hub"); // Replace with your Hub URL
+	RemoteWebDriver driver = new RemoteWebDriver(gridUrl, options);   
+   final String BASE_URL = "https://www.careerorbits.com/";
     @BeforeClass
     public void setUp() {
-        driver = new ChromeDriver();   
+        //driver = new ChromeDriver();  
+    	//driver = new FirefoxDriver();
+    	//driver =new EdgeDriver();
+        //driver = new InternetExplorerDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
     }
@@ -100,4 +121,5 @@ public class MyTestCase{
             driver.quit();
         }
     }
+
 }

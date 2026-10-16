@@ -1,85 +1,381 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="40" passed="40" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-12T18:19:18 IST" name="Default suite" finished-at="2026-10-12T18:19:55 IST" duration-ms="37081">
+  <suite started-at="2026-10-16T09:31:45 IST" name="Suite" finished-at="2026-10-16T09:33:09 IST" duration-ms="83366">
     <groups>
     </groups>
-    <test started-at="2026-10-12T18:19:18 IST" name="Default test" finished-at="2026-10-12T18:19:55 IST" duration-ms="37081">
-      <class name="testing.MyTestCase">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:18 IST" name="setUp" finished-at="2026-10-12T18:19:35 IST" duration-ms="16348" status="PASS">
+    <test started-at="2026-10-16T09:31:45 IST" name="Test" finished-at="2026-10-16T09:33:09 IST" duration-ms="83366">
+      <class name="testing.MyTestCaseEdge">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:31:46 IST" name="setUp" finished-at="2026-10-16T09:31:47 IST" duration-ms="880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:35 IST" name="openHome" finished-at="2026-10-12T18:19:40 IST" duration-ms="5586" status="PASS">
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:31:47 IST" name="openHome" finished-at="2026-10-16T09:31:53 IST" duration-ms="6567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openHome -->
-        <test-method signature="verifyBuyPage()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:40 IST" name="verifyBuyPage" finished-at="2026-10-12T18:19:42 IST" duration-ms="1609" status="PASS">
+        <test-method signature="verifyBuyPage()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:31:53 IST" name="verifyBuyPage" finished-at="2026-10-16T09:32:13 IST" duration-ms="19617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBuyPage -->
-        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:42 IST" name="openHome" finished-at="2026-10-12T18:19:42 IST" duration-ms="560" status="PASS">
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:32:13 IST" name="openHome" finished-at="2026-10-16T09:32:16 IST" duration-ms="3026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openHome -->
-        <test-method signature="verifyContactUsPage()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:42 IST" name="verifyContactUsPage" finished-at="2026-10-12T18:19:43 IST" duration-ms="759" status="PASS">
+        <test-method signature="verifyContactUsPage()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:32:16 IST" name="verifyContactUsPage" finished-at="2026-10-16T09:32:21 IST" duration-ms="5238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactUsPage -->
-        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:43 IST" name="openHome" finished-at="2026-10-12T18:19:44 IST" duration-ms="806" status="PASS">
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:32:21 IST" name="openHome" finished-at="2026-10-16T09:32:25 IST" duration-ms="3653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openHome -->
-        <test-method signature="verifyFeaturesPage()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:44 IST" name="verifyFeaturesPage" finished-at="2026-10-12T18:19:45 IST" duration-ms="964" status="PASS">
+        <test-method signature="verifyFeaturesPage()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:32:25 IST" name="verifyFeaturesPage" finished-at="2026-10-16T09:32:30 IST" duration-ms="5834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFeaturesPage -->
-        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:45 IST" name="openHome" finished-at="2026-10-12T18:19:46 IST" duration-ms="545" status="PASS">
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:32:30 IST" name="openHome" finished-at="2026-10-16T09:32:33 IST" duration-ms="2450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openHome -->
-        <test-method signature="verifyFreeTrialPage()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:46 IST" name="verifyFreeTrialPage" finished-at="2026-10-12T18:19:47 IST" duration-ms="1379" status="PASS">
+        <test-method signature="verifyFreeTrialPage()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:32:33 IST" name="verifyFreeTrialPage" finished-at="2026-10-16T09:32:38 IST" duration-ms="5015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFreeTrialPage -->
-        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:47 IST" name="openHome" finished-at="2026-10-12T18:19:49 IST" duration-ms="1883" status="PASS">
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:32:38 IST" name="openHome" finished-at="2026-10-16T09:32:42 IST" duration-ms="4270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openHome -->
-        <test-method signature="verifyHelpPage()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:49 IST" name="verifyHelpPage" finished-at="2026-10-12T18:19:50 IST" duration-ms="1112" status="PASS">
+        <test-method signature="verifyHelpPage()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:32:42 IST" name="verifyHelpPage" finished-at="2026-10-16T09:32:49 IST" duration-ms="6989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHelpPage -->
-        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:50 IST" name="openHome" finished-at="2026-10-12T18:19:50 IST" duration-ms="498" status="PASS">
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:32:49 IST" name="openHome" finished-at="2026-10-16T09:32:53 IST" duration-ms="4096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openHome -->
-        <test-method signature="verifyJeeAdvancedPage()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:50 IST" name="verifyJeeAdvancedPage" finished-at="2026-10-12T18:19:51 IST" duration-ms="1046" status="PASS">
+        <test-method signature="verifyJeeAdvancedPage()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:32:53 IST" name="verifyJeeAdvancedPage" finished-at="2026-10-16T09:32:59 IST" duration-ms="5921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyJeeAdvancedPage -->
-        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:51 IST" name="openHome" finished-at="2026-10-12T18:19:53 IST" duration-ms="1157" status="PASS">
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:32:59 IST" name="openHome" finished-at="2026-10-16T09:33:02 IST" duration-ms="2438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openHome -->
-        <test-method signature="verifyJeeMainPage()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:53 IST" name="verifyJeeMainPage" finished-at="2026-10-12T18:19:54 IST" duration-ms="936" status="PASS">
+        <test-method signature="verifyJeeMainPage()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:33:02 IST" name="verifyJeeMainPage" finished-at="2026-10-16T09:33:05 IST" duration-ms="3519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyJeeMainPage -->
-        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:54 IST" name="openHome" finished-at="2026-10-12T18:19:54 IST" duration-ms="619" status="PASS">
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:33:05 IST" name="openHome" finished-at="2026-10-16T09:33:06 IST" duration-ms="784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openHome -->
-        <test-method signature="verifyNeetUgPage()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:54 IST" name="verifyNeetUgPage" finished-at="2026-10-12T18:19:55 IST" duration-ms="933" status="PASS">
+        <test-method signature="verifyNeetUgPage()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:33:06 IST" name="verifyNeetUgPage" finished-at="2026-10-16T09:33:08 IST" duration-ms="2442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNeetUgPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.MyTestCase@6dc17b83]" started-at="2026-10-12T18:19:55 IST" name="tearDown" finished-at="2026-10-12T18:19:55 IST" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.MyTestCaseEdge@76fe6cdc]" started-at="2026-10-16T09:33:08 IST" name="tearDown" finished-at="2026-10-16T09:33:09 IST" duration-ms="441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testing.MyTestCase -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testing.MyTestCaseEdge -->
+      <class name="testing.MyTestCaseFirefox">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:31:46 IST" name="setUp" finished-at="2026-10-16T09:31:46 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:31:46 IST" name="openHome" finished-at="2026-10-16T09:32:01 IST" duration-ms="14583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyBuyPage()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:32:01 IST" name="verifyBuyPage" finished-at="2026-10-16T09:32:08 IST" duration-ms="7264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:32:08 IST" name="openHome" finished-at="2026-10-16T09:32:14 IST" duration-ms="6159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyContactUsPage()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:32:14 IST" name="verifyContactUsPage" finished-at="2026-10-16T09:32:18 IST" duration-ms="3564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUsPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:32:18 IST" name="openHome" finished-at="2026-10-16T09:32:22 IST" duration-ms="3670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyFeaturesPage()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:32:22 IST" name="verifyFeaturesPage" finished-at="2026-10-16T09:32:25 IST" duration-ms="3437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturesPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:32:25 IST" name="openHome" finished-at="2026-10-16T09:32:29 IST" duration-ms="3473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyFreeTrialPage()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:32:29 IST" name="verifyFreeTrialPage" finished-at="2026-10-16T09:32:33 IST" duration-ms="4745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFreeTrialPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:32:33 IST" name="openHome" finished-at="2026-10-16T09:32:37 IST" duration-ms="3369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyHelpPage()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:32:37 IST" name="verifyHelpPage" finished-at="2026-10-16T09:32:39 IST" duration-ms="2419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHelpPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:32:39 IST" name="openHome" finished-at="2026-10-16T09:32:43 IST" duration-ms="3952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyJeeAdvancedPage()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:32:43 IST" name="verifyJeeAdvancedPage" finished-at="2026-10-16T09:32:46 IST" duration-ms="2689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJeeAdvancedPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:32:46 IST" name="openHome" finished-at="2026-10-16T09:32:51 IST" duration-ms="4874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyJeeMainPage()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:32:51 IST" name="verifyJeeMainPage" finished-at="2026-10-16T09:32:55 IST" duration-ms="4148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJeeMainPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:32:55 IST" name="openHome" finished-at="2026-10-16T09:32:58 IST" duration-ms="2871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyNeetUgPage()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:32:58 IST" name="verifyNeetUgPage" finished-at="2026-10-16T09:33:00 IST" duration-ms="2441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNeetUgPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.MyTestCaseFirefox@3c0e00a8]" started-at="2026-10-16T09:33:00 IST" name="tearDown" finished-at="2026-10-16T09:33:03 IST" duration-ms="3375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testing.MyTestCaseFirefox -->
+      <class name="testing.MyTestCaseChrome2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:31:46 IST" name="setUp" finished-at="2026-10-16T09:31:46 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:31:46 IST" name="openHome" finished-at="2026-10-16T09:32:02 IST" duration-ms="15167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyBuyPage()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:32:02 IST" name="verifyBuyPage" finished-at="2026-10-16T09:32:11 IST" duration-ms="9459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:32:11 IST" name="openHome" finished-at="2026-10-16T09:32:15 IST" duration-ms="4202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyContactUsPage()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:32:15 IST" name="verifyContactUsPage" finished-at="2026-10-16T09:32:21 IST" duration-ms="5861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUsPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:32:21 IST" name="openHome" finished-at="2026-10-16T09:32:23 IST" duration-ms="2049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyFeaturesPage()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:32:23 IST" name="verifyFeaturesPage" finished-at="2026-10-16T09:32:27 IST" duration-ms="4300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturesPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:32:27 IST" name="openHome" finished-at="2026-10-16T09:32:30 IST" duration-ms="3023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyFreeTrialPage()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:32:30 IST" name="verifyFreeTrialPage" finished-at="2026-10-16T09:32:34 IST" duration-ms="3561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFreeTrialPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:32:34 IST" name="openHome" finished-at="2026-10-16T09:32:36 IST" duration-ms="2348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyHelpPage()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:32:36 IST" name="verifyHelpPage" finished-at="2026-10-16T09:32:40 IST" duration-ms="3918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHelpPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:32:40 IST" name="openHome" finished-at="2026-10-16T09:32:43 IST" duration-ms="2465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyJeeAdvancedPage()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:32:43 IST" name="verifyJeeAdvancedPage" finished-at="2026-10-16T09:32:49 IST" duration-ms="6000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJeeAdvancedPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:32:49 IST" name="openHome" finished-at="2026-10-16T09:32:52 IST" duration-ms="3221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyJeeMainPage()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:32:52 IST" name="verifyJeeMainPage" finished-at="2026-10-16T09:32:58 IST" duration-ms="5813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJeeMainPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:32:58 IST" name="openHome" finished-at="2026-10-16T09:33:01 IST" duration-ms="2711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyNeetUgPage()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:33:01 IST" name="verifyNeetUgPage" finished-at="2026-10-16T09:33:05 IST" duration-ms="4110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNeetUgPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.MyTestCaseChrome2@158e9f6e]" started-at="2026-10-16T09:33:05 IST" name="tearDown" finished-at="2026-10-16T09:33:05 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testing.MyTestCaseChrome2 -->
+      <class name="testing.MyTestCaseChrome3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:31:46 IST" name="setUp" finished-at="2026-10-16T09:31:46 IST" duration-ms="661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:31:46 IST" name="openHome" finished-at="2026-10-16T09:31:52 IST" duration-ms="6014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyBuyPage()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:31:52 IST" name="verifyBuyPage" finished-at="2026-10-16T09:32:11 IST" duration-ms="18728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:32:11 IST" name="openHome" finished-at="2026-10-16T09:32:14 IST" duration-ms="3116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyContactUsPage()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:32:14 IST" name="verifyContactUsPage" finished-at="2026-10-16T09:32:18 IST" duration-ms="4216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUsPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:32:18 IST" name="openHome" finished-at="2026-10-16T09:32:21 IST" duration-ms="2476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyFeaturesPage()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:32:21 IST" name="verifyFeaturesPage" finished-at="2026-10-16T09:32:25 IST" duration-ms="4051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturesPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:32:25 IST" name="openHome" finished-at="2026-10-16T09:32:26 IST" duration-ms="1358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyFreeTrialPage()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:32:26 IST" name="verifyFreeTrialPage" finished-at="2026-10-16T09:32:31 IST" duration-ms="4604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFreeTrialPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:32:31 IST" name="openHome" finished-at="2026-10-16T09:32:33 IST" duration-ms="2107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyHelpPage()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:32:33 IST" name="verifyHelpPage" finished-at="2026-10-16T09:32:38 IST" duration-ms="5244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHelpPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:32:38 IST" name="openHome" finished-at="2026-10-16T09:32:41 IST" duration-ms="2307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyJeeAdvancedPage()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:32:41 IST" name="verifyJeeAdvancedPage" finished-at="2026-10-16T09:32:44 IST" duration-ms="3801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJeeAdvancedPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:32:44 IST" name="openHome" finished-at="2026-10-16T09:32:47 IST" duration-ms="2793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyJeeMainPage()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:32:47 IST" name="verifyJeeMainPage" finished-at="2026-10-16T09:32:53 IST" duration-ms="5394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJeeMainPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:32:53 IST" name="openHome" finished-at="2026-10-16T09:32:55 IST" duration-ms="2310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyNeetUgPage()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:32:55 IST" name="verifyNeetUgPage" finished-at="2026-10-16T09:33:00 IST" duration-ms="4654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNeetUgPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.MyTestCaseChrome3@136ccbfe]" started-at="2026-10-16T09:33:00 IST" name="tearDown" finished-at="2026-10-16T09:33:00 IST" duration-ms="911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testing.MyTestCaseChrome3 -->
+      <class name="testing.MyTestCaseChrome1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:31:46 IST" name="setUp" finished-at="2026-10-16T09:31:46 IST" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:31:46 IST" name="openHome" finished-at="2026-10-16T09:31:52 IST" duration-ms="5912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyBuyPage()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:31:52 IST" name="verifyBuyPage" finished-at="2026-10-16T09:32:14 IST" duration-ms="22191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:32:14 IST" name="openHome" finished-at="2026-10-16T09:32:17 IST" duration-ms="2985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyContactUsPage()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:32:17 IST" name="verifyContactUsPage" finished-at="2026-10-16T09:32:22 IST" duration-ms="4883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUsPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:32:22 IST" name="openHome" finished-at="2026-10-16T09:32:24 IST" duration-ms="1845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyFeaturesPage()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:32:24 IST" name="verifyFeaturesPage" finished-at="2026-10-16T09:32:28 IST" duration-ms="3757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturesPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:32:28 IST" name="openHome" finished-at="2026-10-16T09:32:30 IST" duration-ms="1674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyFreeTrialPage()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:32:30 IST" name="verifyFreeTrialPage" finished-at="2026-10-16T09:32:34 IST" duration-ms="4048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFreeTrialPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:32:34 IST" name="openHome" finished-at="2026-10-16T09:32:36 IST" duration-ms="1909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyHelpPage()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:32:36 IST" name="verifyHelpPage" finished-at="2026-10-16T09:32:41 IST" duration-ms="5089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHelpPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:32:41 IST" name="openHome" finished-at="2026-10-16T09:32:43 IST" duration-ms="2098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyJeeAdvancedPage()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:32:43 IST" name="verifyJeeAdvancedPage" finished-at="2026-10-16T09:32:49 IST" duration-ms="6203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJeeAdvancedPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:32:49 IST" name="openHome" finished-at="2026-10-16T09:32:52 IST" duration-ms="2859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyJeeMainPage()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:32:52 IST" name="verifyJeeMainPage" finished-at="2026-10-16T09:32:56 IST" duration-ms="4034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJeeMainPage -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:32:56 IST" name="openHome" finished-at="2026-10-16T09:32:59 IST" duration-ms="2804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="verifyNeetUgPage()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:32:59 IST" name="verifyNeetUgPage" finished-at="2026-10-16T09:33:04 IST" duration-ms="4998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNeetUgPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.MyTestCaseChrome1@3fa7df1]" started-at="2026-10-16T09:33:04 IST" name="tearDown" finished-at="2026-10-16T09:33:04 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testing.MyTestCaseChrome1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

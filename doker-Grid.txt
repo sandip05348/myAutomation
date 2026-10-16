@@ -1,0 +1,20 @@
+# Docker with Selenium Grid
+
+1: Create a file docker-compose.yaml with the required config.
+
+2: Run the docker-compose.yaml file
+     docker-compose up
+
+3: To check the hub and nodes' running state:
+      http://localhost:4444/grid/console
+
+4: To increase the number of nodes
+    docker-compose scale chrome=3
+
+5: Stop all Docker images and container 
+    docker-compose down
+
+docker compose down
+docker compose pull
+docker compose up -d
+docker compose ps
