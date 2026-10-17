@@ -1,7 +1,5 @@
 package myAutomation;
 
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -20,23 +18,16 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class MyTestCaseChrome3 {
+public class MyTestCaseChrome1 {
 	
-	public MyTestCaseChrome3() throws MalformedURLException {
-        super(); // This call can be explicit or left implicit
-    }
 	
-	// 1. Create a ChromeOptions or instance
+	// 1. Create a WebDriver or instance
 	ChromeOptions options = new ChromeOptions();
-
-	// 2. Pass ChromeOptions into RemoteWebDriver
-	@SuppressWarnings("deprecation")
-	URL gridUrl = new URL("http://localhost:4444/wd/hub"); // Replace with your Hub URL
-	RemoteWebDriver driver = new RemoteWebDriver(gridUrl, options);   
+	WebDriver driver;
    final String BASE_URL = "https://www.careerorbits.com/";
     @BeforeClass
     public void setUp() {
-        //driver = new ChromeDriver();  
+        driver = new ChromeDriver();  
     	//driver = new FirefoxDriver();
     	//driver =new EdgeDriver();
         //driver = new InternetExplorerDriver();
