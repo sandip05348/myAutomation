@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-java@v5
         with:
           distribution: temurin
-          java-version: '25'      # match the version in your pom.xml
+          java-version: '21'      # match the version in your pom.xml
           cache: maven
 
       - name: Run tests
