@@ -29,4 +29,5 @@ jobs:
           name: test-reports
           path: |
             target/surefire-reports
+            target/screenshots
             test-output
