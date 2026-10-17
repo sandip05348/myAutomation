@@ -39,14 +39,6 @@ public class SetupDockerGrid {
 //	     //   Runtime.getRuntime().exec("taskkill /f /im cmd.exc");
 //	}
 	
-	private void runBat(String bat, String logName) throws IOException, InterruptedException {
-	    new ProcessBuilder("cmd", "/c", bat)
-	            .redirectErrorStream(true)
-	            .redirectOutput(new File("target/" + logName))
-	            .start()
-	            .waitFor();
-	}
-
 	@BeforeSuite
 	public void startDockerGrid() throws Exception {
 	    runBat("startDockerGrid.bat", "docker-start.log");
@@ -57,5 +49,12 @@ public class SetupDockerGrid {
 	public void stopDockerGrid() throws Exception {
 	    runBat("stopDockerGrid.bat", "docker-stop.log");
 	}
-
+	
+	private void runBat(String bat, String logName) throws IOException, InterruptedException {
+	    new ProcessBuilder("cmd", "/c", bat)
+	            .redirectErrorStream(true)
+	            .redirectOutput(new File("target/" + logName))
+	            .start()
+	            .waitFor();
+	}
 }
