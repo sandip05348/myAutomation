@@ -3,6 +3,7 @@ name: Selenium Tests
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   test:
@@ -10,13 +11,13 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/setup-java@v5
+        uses: actions/checkout@v6
 
       - name: Set up JDK
         uses: actions/setup-java@v5
         with:
           distribution: temurin
-          java-version: '21'      # match the version in your pom.xml
+          java-version: '21'
           cache: maven
 
       - name: Run tests
