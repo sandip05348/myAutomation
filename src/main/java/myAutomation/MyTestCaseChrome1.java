@@ -25,15 +25,16 @@ public class MyTestCaseChrome1 {
 	ChromeOptions options = new ChromeOptions();
 	WebDriver driver;
    final String BASE_URL = "https://www.careerorbits.com/";
-    @BeforeClass
-    public void setUp() {
-        driver = new ChromeDriver();  
-    	//driver = new FirefoxDriver();
-    	//driver =new EdgeDriver();
-        //driver = new InternetExplorerDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-    }
+   @BeforeClass
+   public void setUp() {
+       if (System.getenv("CI") != null) {
+           options.addArguments("--headless=new", "--no-sandbox",
+                                "--disable-dev-shm-usage", "--window-size=1920,1080");
+       }
+       driver = new ChromeDriver(options);
+       driver.manage().window().maximize();
+       driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+   }
 
     // Every test starts from the home page
     @BeforeMethod
